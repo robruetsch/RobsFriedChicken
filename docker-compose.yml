@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  robsfriedchicken:
+    image: robsfriedchicken
+    build:
+      context: ./RobsFriedChicken
+      dockerfile: Dockerfile
