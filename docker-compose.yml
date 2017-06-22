@@ -6,3 +6,8 @@ services:
     build:
       context: ./RobsFriedChicken
       dockerfile: Dockerfile
+  kitchenapi:
+    image: kitchenapi
+    build:
+      context: ./../KitchenAPI
+      dockerfile: Dockerfile
